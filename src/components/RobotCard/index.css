@@ -1,0 +1,22 @@
+.card {
+  text-align: center;
+  padding: 1rem;
+  margin: .5rem;
+  /* max-width: 230px; */
+  background-color: #9eebcf;
+  border-width: .25rem;
+  border-radius: .5rem;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  transition: transform 0.25s ease-in;
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.05);
+}
+
+h2 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
